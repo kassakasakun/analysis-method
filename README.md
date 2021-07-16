@@ -1,4 +1,5 @@
-**解析用スクリプトの説明**\n
+**解析用スクリプトの説明**
+
 interpolate_data_igmr.py がデータ補間用のスクリプト
 regression_model.py が解析用のスクリプト
 
