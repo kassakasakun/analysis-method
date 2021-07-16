@@ -7,6 +7,7 @@ regression_model.py が解析用のスクリプト
 **ディレクトリ構成**
 
 -home
+
     -code
     
         -regression.py
