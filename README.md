@@ -1,8 +1,8 @@
 **解析用スクリプトの説明**  
-interpolate_data_igmr.py がデータ補間用のスクリプト  
-regression_model.py が解析用のスクリプト  
+interpolate_data_igmr.py : データ補間用のスクリプト  
+regression_model.py : 解析用のスクリプト  
 
-***
+---
 
 **ディレクトリ構成**  
 home  
@@ -19,26 +19,24 @@ home
 
 3つのディレクトリで構成されることを想定しています
 
-*code
-    Pythonコードを入れておくディレクトリ
-*data
-    
-・data
-    csvデータを入れておくディレクトリ
-    raw_dataset.csv
-        dataset.csvのうち解析に使うデータのみを抜き出したcsvファイル
-        1行目->Lot番号
-        2行目->目的変数（粘度）
-        3行目以降->説明変数
-    statistics_data.csv
-        プロセスデータの統計量データ
-        1行目->Lot番号
-        2行目以降->統計量データ
-    interpolate_dataset.csv
-        raw_dataset.csvをinterpolate_data_igmr.pyによって補間したもの
-        1行目->Lot番号
-        2行目->目的変数（粘度）
-        3行目以降->説明変数
+- code  
+    - Pythonコードを入れておくディレクトリ  
+- data  
+    - csvデータを入れておくディレクトリ
+    - raw_dataset.csv
+        - dataset.csvのうち解析に使うデータのみを抜き出したcsvファイル
+        - 1行目->Lot番号
+        - 2行目->目的変数（粘度）
+        - 3行目以降->説明変数
+    - statistics_data.csv
+        - プロセスデータの統計量データ
+        - 1行目->Lot番号
+        - 2行目以降->統計量データ
+    - interpolate_dataset.csv
+        - raw_dataset.csvをinterpolate_data_igmr.pyによって補間したもの
+        - 1行目->Lot番号
+        - 2行目->目的変数（粘度）
+        - 3行目以降->説明変数
 *saves
     解析結果を保存するためディレクトリ
     csv
@@ -49,16 +47,15 @@ home
 ***
 
 **実行環境**
-Python3.xで実行してください
-必要となるライブラリ
-・pandas
-・numpy
-・matplotlib
-・sikit-learn
-・lightgbm
-・xgboost
-・boruta
-・dcekit
+- Python3.x
+- pandas
+- numpy
+- matplotlib
+- sikit-learn
+- lightgbm
+- xgboost
+- boruta
+- dcekit
 
 ***
 
