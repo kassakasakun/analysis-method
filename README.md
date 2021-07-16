@@ -9,7 +9,6 @@ regression_model.py が解析用のスクリプト
 -home
 
     -code
-    
         -regression.py
         -interpolate_data_igmr.py
     -data
