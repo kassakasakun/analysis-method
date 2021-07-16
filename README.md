@@ -6,8 +6,7 @@ regression_model.py が解析用のスクリプト
 
 **ディレクトリ構成**
 
-home
-
+-home
     -code
     
         -regression.py
@@ -24,6 +23,7 @@ home
 
 ・code
     Pythonコードを入れておくディレクトリ
+    
 ・data
     csvデータを入れておくディレクトリ
     raw_dataset.csv
@@ -40,6 +40,7 @@ home
         1行目->Lot番号
         2行目->目的変数（粘度）
         3行目以降->説明変数
+        
 ・saves
     解析結果を保存するためディレクトリ
     csv
