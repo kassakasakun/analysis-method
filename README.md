@@ -16,12 +16,37 @@ home
     -saves  
         -csv  
         -image  
+**解析用スクリプトの説明**
+
+interpolate_data_igmr.py がデータ補間用のスクリプト
+
+regression_model.py が解析用のスクリプト
+
+**ディレクトリ構成**
+
+-home
+
+    -code
+        -regression.py
+        -interpolate_data_igmr.py
+    -data
+        -raw_dataset.csv
+        -statistics_data.csv
+        (-interpolate_dataset.csv)
+    -saves
+        -csv
+        -image
 
 3つのディレクトリで構成されることを想定しています
 
 *code
     Pythonコードを入れておくディレクトリ
+<<<<<<< HEAD
 *data
+=======
+    
+・data
+>>>>>>> refs/remotes/origin/master
     csvデータを入れておくディレクトリ
     raw_dataset.csv
         dataset.csvのうち解析に使うデータのみを抜き出したcsvファイル
@@ -37,7 +62,12 @@ home
         1行目->Lot番号
         2行目->目的変数（粘度）
         3行目以降->説明変数
+<<<<<<< HEAD
 *saves
+=======
+        
+・saves
+>>>>>>> refs/remotes/origin/master
     解析結果を保存するためディレクトリ
     csv
         保存ファイルの内csvのもの
